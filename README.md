@@ -20,7 +20,13 @@ This is a Quiz API built with NodeJs, Express and MongoDB
 
 ### Links
 
-- Try QRCode Generator: [Use App](https://oheneadj.github.io/QR-Code-Component/)
+- Try Quiz API: [quiz-api.vercel.io](https://quiz-api.vercel.io)
+
+- EndPoints:
+    - GET /api/quizzes/
+    - POST /api/quizzes/
+    - PUT /api/quizzes/:id
+    - DELETE /api/quizzes/:id
 
 ### My Process
 - [Watch The Step-by-Step Process On My YouTube Channel](https://www.youtube.com/@oheneadj)
