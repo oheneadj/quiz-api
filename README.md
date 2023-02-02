@@ -22,11 +22,29 @@ This is a Quiz API built with NodeJs, Express and MongoDB
 
 - Try Quiz API: [quiz-api.vercel.io](https://quiz-api.vercel.io)
 
-- EndPoints:
-    - GET /api/quizzes/
+### EndPoints:
+```shell
+mkdir my-site
+cd my-site
+yarn init
+yarn add gatsby react react-dom gatsby-theme-intro
+```
+    - 
     - POST /api/quizzes/
     - PUT /api/quizzes/:id
     - DELETE /api/quizzes/:id
+
+    For each project you can provide:
+
+| End Point         | Method | Description     | Access    |
+| ----------------- | ------ | --------------- | --------- |
+| /api/quizzes/     | GET    | get all quizzes | Private   |
+| /api/quizzes/     | POST   | create a quiz   | Private   |
+| /api/quizzes/:id  | PUT    | update a quiz   | Private   |
+| /api/quizzes/:id  | DELETE | delete a quiz   | Private   |
+| /api/auth/login/  | POST   | login user      | Public    |
+| /api/auth/signin/ | POST   | create user     | Public    |
+| /api/auth/logout/ | POST   | logout user     | Public    |
 
 ### My Process
 - [Watch The Step-by-Step Process On My YouTube Channel](https://www.youtube.com/@oheneadj)
