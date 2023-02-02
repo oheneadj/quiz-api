@@ -1,0 +1,21 @@
+{
+  "name": "quiz-api",
+  "version": "0.01",
+  "description": "Quiz api",
+  "main": "index.js",
+  "author": "Ohene Adjei",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
